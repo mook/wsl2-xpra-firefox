@@ -1,0 +1,9 @@
+{
+    "name": "org.buster.client",
+    "description": "Buster",
+    "path": "/usr/local/bin/buster-client",
+    "type": "stdio",
+    "allowed_extensions": [
+        "{e58d3966-3d76-4cd9-8552-1582fbc800c1}"
+    ]
+}
