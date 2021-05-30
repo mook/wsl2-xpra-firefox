@@ -107,6 +107,8 @@ try {
     // We use throwaway docker containers, no need for private browsing
     Services.prefs.setBoolPref("browser.newtabpage.enabled", false);
     Services.prefs.setBoolPref("browser.newtabpage.enhanced", false);
+    Services.prefs.setBoolPref("browser.search.geoSpecificDefaults", false);
+    Services.prefs.setBoolPref("browser.search.suggest.enabled", false);
     Services.prefs.setBoolPref("browser.privatebrowsing.autostart", false);
     Services.prefs.setBoolPref("extensions.pocket.enabled", false);
 
