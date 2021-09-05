@@ -1,7 +1,7 @@
 # vim: set et ts=4 :
 
 FROM ghcr.io/mook/wsl2-xpra-generic:latest AS downloader
-RUN zypper --non-interactive install \
+RUN zypper --non-interactive install --replacefiles \
     python3 \
     wget
 
